@@ -3,6 +3,11 @@ const path = require("path");
 const resolve = (dir) => path.join(__dirname, dir);
 
 module.exports = defineConfig({
+  pages: {
+    index: {
+      entry: "dev/main.js",
+    },
+  },
   transpileDependencies: true,
   chainWebpack: (config) => {
     // 添加别名
