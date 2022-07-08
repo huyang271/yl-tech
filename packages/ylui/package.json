@@ -1,0 +1,23 @@
+{
+  "name": "@yl-tech/yl-ui",
+  "version": "0.0.1",
+  "description": "yl-ui",
+  "author": "huyangdong <huyangdong@yueliu.io>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/yl-ui.umd.js",
+  "directories": {},
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git@e.coding.net:cnhiz/xinyue2.4/yl-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.9",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2"
+  }
+}
