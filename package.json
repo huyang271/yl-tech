@@ -8,10 +8,6 @@
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --entry packages/ylui/index.js"
   },
-  "publishConfig": {
-    "registry": "https://packages.aliyun.com/625e7058c2b7347ce520cc70/npm/npm-registry/",
-    "access": "public"
-  },
   "workspaces": [
     "packages/*"
   ],

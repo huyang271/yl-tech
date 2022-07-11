@@ -1,6 +1,7 @@
 {
   "name": "@yl-tech/yl-ui",
   "version": "0.0.6",
+  "private": false,
   "description": "yl-ui",
   "author": "huyangdong <570827303@qq.com>",
   "homepage": "",
@@ -12,6 +13,10 @@
     "type": "git",
     "url": "git@e.coding.net:cnhiz/xinyue2.4/yl-ui.git"
   },
+  "publishConfig": {
+    "registry": "https://packages.aliyun.com/625e7058c2b7347ce520cc70/npm/npm-registry/",
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
@@ -20,5 +25,5 @@
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2"
   },
-  "gitHead": "b2911d6a37acd5233d59d614f92c8874cea1f40b"
+  "gitHead": "84fe358c44cbc2ce07398b99c2097b9694df7f5b"
 }
