@@ -1,5 +1,5 @@
 {
-  "name": "yl-ui",
+  "name": "yl-tech",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,9 @@
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --entry packages/ylui/index.js"
   },
-  "main": "dist/yl-ui.umd.js",
+  "publishConfig": {
+    "registry": "https://packages.aliyun.com/625e7058c2b7347ce520cc70/npm/npm-registry/"
+  },
   "workspaces": [
     "packages/*"
   ],

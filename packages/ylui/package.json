@@ -5,7 +5,7 @@
   "author": "huyangdong <huyangdong@yueliu.io>",
   "homepage": "",
   "license": "ISC",
-  "main": "dist/yl-ui.umd.js",
+  "main": "index.js",
   "directories": {},
   "files": [],
   "repository": {
