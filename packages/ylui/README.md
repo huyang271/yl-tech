@@ -1,6 +1,6 @@
 # `ylui`
 
-> TODO: 基础ui组件库
+> TODO: 基础yl-ui组件库
 
 ## Usage
 
