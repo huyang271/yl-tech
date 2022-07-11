@@ -3,18 +3,13 @@
   "version": "0.0.7",
   "private": false,
   "description": "yl-ui",
-  "author": "huyangdong <570827303@qq.com>",
+  "author": "huyangdong <huyangdong@yueliu.io>",
   "homepage": "",
   "license": "ISC",
   "main": "index.js",
   "directories": {},
   "files": [],
-  "repository": {
-    "type": "git",
-    "url": "git@e.coding.net:cnhiz/xinyue2.4/yl-ui.git"
-  },
   "publishConfig": {
-    "registry": "https://packages.aliyun.com/625e7058c2b7347ce520cc70/npm/npm-registry/",
     "access": "public"
   },
   "scripts": {
@@ -25,5 +20,5 @@
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2"
   },
-  "gitHead": "84fe358c44cbc2ce07398b99c2097b9694df7f5b"
+  "gitHead": "f4671333a4c5d178a72387d59a28dee7752487ab"
 }
