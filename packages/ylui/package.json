@@ -19,5 +19,6 @@
     "element-ui": "^2.15.9",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2"
-  }
+  },
+  "gitHead": "2103ec653c8e912a26c0ddd27042c08b4f0977be"
 }
