@@ -1,6 +1,6 @@
 {
   "name": "yl-ui-bs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "阅流业务组件库",
   "author": "huyangdong <huyangdong@yueliu.io>",
   "homepage": "https://github.com/huyang271/yl-tech#readme",
@@ -20,6 +20,6 @@
     "url": "https://github.com/huyang271/yl-tech/issues"
   },
   "dependencies": {
-    "@yl-tech/yl-ui": "^0.0.10"
+    "@yl-tech/yl-ui": "^0.0.11"
   }
 }
