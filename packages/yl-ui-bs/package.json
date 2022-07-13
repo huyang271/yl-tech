@@ -1,0 +1,25 @@
+{
+  "name": "yl-ui-bs",
+  "version": "0.0.1",
+  "description": "阅流业务组件库",
+  "author": "huyangdong <huyangdong@yueliu.io>",
+  "homepage": "https://github.com/huyang271/yl-tech#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyang271/yl-tech.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/huyang271/yl-tech/issues"
+  },
+  "dependencies": {
+    "@yl-tech/yl-ui": "^0.0.10"
+  }
+}
