@@ -57,12 +57,12 @@ const routes = [
   //       /* webpackChunkName: "about" */ "../views/ui-demo/YlFormComponents.vue"
   //     ),
   // },
-  // {
-  //   path: "/tree",
-  //   name: "tree",
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/ui-demo/YlTree.vue"),
-  // },
+  {
+    path: "/tree",
+    name: "tree",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ui-demo/YlTree.vue"),
+  },
 ];
 
 const router = new VueRouter({

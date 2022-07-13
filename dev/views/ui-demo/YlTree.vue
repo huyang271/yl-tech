@@ -11,13 +11,13 @@
         <span>{{ node.label }}--</span>
         <span>{{ data.id }}</span>
         <span>
-          <el-button type="text" size="mini"> Append </el-button>
-          <el-button type="text" size="mini"> Delete </el-button>
+          <yl-button type="text" size="mini"> Append </yl-button>
+          <yl-button type="text" size="mini"> Delete </yl-button>
         </span>
       </span>
     </yl-tree>
 
-    <el-divider>下拉树</el-divider>
+    <hr />
 
     <div style="height: 300px; overflow: auto">
       <div style="height: 200px"></div>
