@@ -11,9 +11,9 @@
           上传文件夹
         </yl-dropdown-item>
       </yl-dropdown-menu>
-      <el-button class="btn-small btn--blue btn-40">
+      <yl-button class="btn-small btn--blue btn-40">
         上传 <i class="iconfont iconfanhui_fanhui icon-size"></i>
-      </el-button>
+      </yl-button>
     </yl-dropdown>
   </div>
 </template>

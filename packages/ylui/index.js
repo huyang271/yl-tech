@@ -1,52 +1,52 @@
-// import YlDropdown from "./dropdown";
-// import YlDropdownMenu from "./dropdown-menu";
-// import YlDropdownItem from "./dropdown-item";
-// import YlDropdownGroup from "./dropdown-group";
-// import YlTooltip from "./tooltip";
-// import YlPopover from "./popover";
+import YlDropdown from "./components/dropdown";
+import YlDropdownMenu from "./components/dropdown-menu";
+import YlDropdownItem from "./components/dropdown-item";
+import YlDropdownGroup from "./components/dropdown-group";
+import YlTooltip from "./components/tooltip";
+import YlPopover from "./components/popover";
 import YlButton from "./components/button";
-// import YlCascader from "./cascader";
-// import YlCascaderPanel from "./cascader-panel";
-// import YlDialog from "./dialog";
-// import YlSelect from "./select";
-// import YlOption from "./option";
-// import YlOptionGroup from "./option-group";
-// import YlInput from "./input";
-// import YlDatePicker from "./date-picker";
-// import YlTimePicker from "./time-picker";
-// import YlSwitch from "./switch";
-// import YlRadio from "./radio";
-// import YlRadioGroup from "./radio-group";
-// import YlRadioButton from "./radio-button";
-// import YlCheckbox from "./checkbox";
-// import YlCheckboxGroup from "./checkbox-group";
-// import YlCheckboxButton from "./checkbox-button";
-// import YlForm from "./form";
-// import YlFormItem from "./form-item";
-// import YlTree from "./tree";
-// import YlDroptree from "./droptree";
+// import YlCascader from "./components/cascader";
+// import YlCascaderPanel from "./components/cascader-panel";
+import YlDialog from "./components/dialog";
+import YlSelect from "./components/select";
+import YlOption from "./components/option";
+import YlOptionGroup from "./components/option-group";
+import YlInput from "./components/input";
+// import YlDatePicker from "./components/date-picker";
+// import YlTimePicker from "./components/time-picker";
+import YlSwitch from "./components/switch";
+// import YlRadio from "./components/radio";
+// import YlRadioGroup from "./components/radio-group";
+// import YlRadioButton from "./components/radio-button";
+// import YlCheckbox from "./components/checkbox";
+// import YlCheckboxGroup from "./components/checkbox-group";
+// import YlCheckboxButton from "./components/checkbox-button";
+// import YlForm from "./components/form";
+// import YlFormItem from "./components/form-item";
+// import YlTree from "./components/tree";
+// import YlDroptree from "./components/droptree";
 
-// import Message from "./toast";
-// import MessageBox from "./message-box";
+// import Message from "./components/toast";
+import MessageBox from "./components/message-box";
 
 const components = [
-  // YlDropdown,
-  // YlDropdownMenu,
-  // YlDropdownItem,
-  // YlDropdownGroup,
-  // YlTooltip,
-  // YlPopover,
+  YlDropdown,
+  YlDropdownMenu,
+  YlDropdownItem,
+  YlDropdownGroup,
+  YlTooltip,
+  YlPopover,
   YlButton,
   // YlCascader,
   // YlCascaderPanel,
-  // YlDialog,
-  // YlSelect,
-  // YlOption,
-  // YlOptionGroup,
-  // YlInput,
+  YlDialog,
+  YlSelect,
+  YlOption,
+  YlOptionGroup,
+  YlInput,
   // YlDatePicker,
   // YlTimePicker,
-  // YlSwitch,
+  YlSwitch,
   // YlRadio,
   // YlRadioGroup,
   // YlRadioButton,
@@ -65,7 +65,7 @@ const install = (Vue) => {
   });
 
   // Vue.prototype.$toast = Message;
-  // Vue.prototype.$dialog = MessageBox.confirm;
+  Vue.prototype.$dialog = MessageBox.confirm;
 };
 
 if (typeof window !== "undefined" && window.Vue) {
@@ -74,21 +74,21 @@ if (typeof window !== "undefined" && window.Vue) {
 
 export {
   install,
-  // YlDropdown,
-  // YlDropdownMenu,
-  // YlDropdownItem,
-  // YlDropdownGroup,
-  // YlTooltip,
-  // YlPopover,
+  YlDropdown,
+  YlDropdownMenu,
+  YlDropdownItem,
+  YlDropdownGroup,
+  YlTooltip,
+  YlPopover,
   YlButton,
   // YlCascader,
   // YlCascaderPanel,
-  // YlDialog,
-  // YlSelect,
-  // YlOption,
-  // YlOptionGroup,
-  // YlSwitch,
-  // YlInput,
+  YlDialog,
+  YlSelect,
+  YlOption,
+  YlOptionGroup,
+  YlSwitch,
+  YlInput,
   // YlDatePicker,
   // YlTimePicker,
   // YlRadio,
@@ -102,5 +102,5 @@ export {
   // YlTree,
   // YlDroptree,
   // Message,
-  // MessageBox,
+  MessageBox,
 };

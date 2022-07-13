@@ -1,8 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import * as YlUI from "../dist/yl-ui.umd.js";
-import "../dist/yl-ui.css";
+import * as YlUI from "../packages/ylui";
 
 Vue.config.productionTip = false;
 Vue.use(YlUI);

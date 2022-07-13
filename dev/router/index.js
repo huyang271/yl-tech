@@ -4,27 +4,27 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 const routes = [
-  // {
-  //   path: "/dropdown",
-  //   name: "dropdown",
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/ui-demo/YlDropdown.vue"),
-  // },
-  // {
-  //   path: "/tooltip",
-  //   name: "tooltip",
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/ui-demo/YlTooltip.vue"),
-  // },
-  // {
-  //   path: "/popover",
-  //   name: "popover",
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/ui-demo/YlPopover.vue"),
-  // },
+  {
+    path: "/dropdown",
+    name: "dropdown",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ui-demo/YlDropdown.vue"),
+  },
+  {
+    path: "/tooltip",
+    name: "tooltip",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ui-demo/YlTooltip.vue"),
+  },
+  {
+    path: "/popover",
+    name: "popover",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ui-demo/YlPopover.vue"),
+  },
   {
     path: "/button",
     name: "button",
@@ -43,12 +43,12 @@ const routes = [
   //   component: () =>
   //     import(/* webpackChunkName: "about" */ "../views/ui-demo/YlToast.vue"),
   // },
-  // {
-  //   path: "/dialog",
-  //   name: "dialog",
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/ui-demo/YlDialog.vue"),
-  // },
+  {
+    path: "/dialog",
+    name: "dialog",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ui-demo/YlDialog.vue"),
+  },
   // {
   //   path: "/form",
   //   name: "form",

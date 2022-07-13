@@ -12,5 +12,6 @@ module.exports = defineConfig({
   chainWebpack: (config) => {
     // 添加别名
     config.resolve.alias.set("@", resolve("dev/"));
+    config.resolve.alias.set("@pkg", resolve("packages/"));
   },
 });
