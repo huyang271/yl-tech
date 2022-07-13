@@ -24,7 +24,6 @@ import YlSwitch from "./components/switch";
 // import YlForm from "./components/form";
 // import YlFormItem from "./components/form-item";
 import YlTree from "./components/tree";
-import YlDroptree from "./components/droptree";
 
 // import Message from "./components/toast";
 import MessageBox from "./components/message-box";
@@ -56,7 +55,6 @@ const components = [
   // YlFormItem,
   // YlForm,
   YlTree,
-  YlDroptree,
 ];
 
 const install = (Vue) => {
@@ -100,7 +98,6 @@ export {
   // YlFormItem,
   // YlForm,
   YlTree,
-  YlDroptree,
   // Message,
   MessageBox,
 };

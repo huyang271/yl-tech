@@ -109,7 +109,7 @@
 </template>
 
 <script>
-import YlTree from "../../tree";
+import { YlTree } from "@yl-tech/yl-ui";
 import { Tag } from "element-ui";
 
 let flatData = [];

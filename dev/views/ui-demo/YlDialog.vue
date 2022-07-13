@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { MessageBox } from "@pkg/ylui";
+import { MessageBox } from "@pkg/yl-ui";
 
 export default {
   data() {
